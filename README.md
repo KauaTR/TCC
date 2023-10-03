@@ -1,9 +1,15 @@
 # Primeira Semana
-1.Planejamendo do tema
+
+  1.Planejamendo do tema-grupo(Kauã, sther, ale)
+
 # Segunda Semana
-1.Pesquisas
-2.Prototipagem de baixa fidelidade
-3.PLanejamentos de telas
+
+  1.Pesquisas-ale,sther, fizeram pesquisas quando foram para a USP , Kauã realizou pesquisa na escola e algumas pesquisas em redes sociais. 
+  
+  2.Prototipagem de baixa fidelidade - sther
+
+  3.PLanejamentos de telas
+
 # Terceira Semana
 1.Execução da Prototipagem
 ![image](https://github.com/KauaTR/TCC/assets/136452270/b998ee29-b06a-4d76-9d1c-e965712d1faa)
