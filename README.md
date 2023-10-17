@@ -3,6 +3,8 @@
 Criar um site onde ajude a população a organizar seu dinheiro para ter uma boa vida financeiro, com relação a finanças, tendo o publico alvo crianças e adolescentes.
 ## **Problema**
 Atualmente, a população vem sofrendo em relação a como guardar seu dinheiro e porque. Isso vem sendo afetado pelo fato que a maioria dos jovens entre 10 a 19 anos gastam seu dinheiro com coisas supérfluas, não pensando no futuro e como aquilo pode afetar sua vida financeira 
+## **Identidade Visual**
+A cor #00A5BD foi escolhida por conta que é a cor da economia, assim tendo uma familiaridade com o site, as cores #FFFFFF,#673500,#0D0A07 são para deixar mais agradavel, sendo utilizados para detalhes. 
 ## **Solução**
 O site de Finances kids , oferece ideias de como guardar seu dinheiro, por que guardar seu dinheiro e como guardar seu dinheiro. Isto será muito bom pois poderá abrir mentes do público alvo, que são entre 10 a 25 anos, e ensinara a importância de saber administrar o seu ganho e ter alguns resultados positivos. 
 ## **Tecnologias**
@@ -28,4 +30,4 @@ O projeto irá beneficiar alunos, professores, pessoas de baixa renda, todos que
 * ** Recomendações personalizadas :** Professores na área ou com experiencia poderão ajudar como melhor.
 •	* ** Acompanhamento de progresso:** Os interessados poderão acompanhar o seu progresso.
  
-![image](https://github.com/KauaTR/TCC/assets/136452270/e21d68ba-b682-404e-b86d-f9322f8df899)
+![metas](https://1drv.ms/x/s!An5rcMl69pkygRjf36nV_H3Zy2TV?e=SrqU2t)
