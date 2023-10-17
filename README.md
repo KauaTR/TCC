@@ -30,4 +30,5 @@ O projeto irá beneficiar alunos, professores, pessoas de baixa renda, todos que
 * ** Recomendações personalizadas :** Professores na área ou com experiencia poderão ajudar como melhor.
 •	* ** Acompanhamento de progresso:** Os interessados poderão acompanhar o seu progresso.
  
+Metas 
 https://1drv.ms/x/s!An5rcMl69pkygRjf36nV_H3Zy2TV?e=nvKvnU
