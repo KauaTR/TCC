@@ -1,6 +1,6 @@
 # **Acervo Digital Benedito Calixto**
 ## **Objetivo**
-Criar um site onde ajude a população se organizar seu dinheiro para ter uma boa vida financeiro, com relação a finanças, tendo o publico alvo crianças e adolescentes.
+Criar um site onde ajude a população organizar seu dinheiro para ter uma boa vida financeiro, com relação a finanças, tendo o publico alvo crianças e adolescentes.
 ## **Problema**
 Atualmente, a população vem sofrendo em relação a como guardar seu dinheiro e porque. Isso vem sendo afetado pelo fato que a maioria dos jovens entre 10 a 19 anos gastam seu dinheiro com coisas supérfluas, não pensando no futuro e como aquilo pode afetar sua vida financeira 
 ## **Identidade Visual**
