@@ -105,11 +105,18 @@
   width: 100vw;
 }
 
+<<<<<<< Updated upstream
 .parent-2 {
+=======
+/*----------------------CODIGO ACIMA TRATA-SE SOBRE O MENU-------------------------------------*/
+
+.parent2 {
+>>>>>>> Stashed changes
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 20px;
+<<<<<<< Updated upstream
   grid-row-gap: 0px;
   margin: 40px;
   height: 96%;
@@ -278,3 +285,28 @@
       }
   }
   
+=======
+  grid-row-gap: px;
+  }
+  
+  .div11 { grid-area: 1 / 1 / 2 / 2; }
+  .div22 { grid-area: 1 / 2 / 2 / 3; }
+
+  .div11{
+    width: 45px;
+    height: 100%;
+    background-color: blueviolet;
+  }
+  .div22{
+    width: 45px;
+    height: 100%;
+    background-color: blueviolet;
+  }
+  #texto-1{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(255, 0, 0);
+
+  }
+>>>>>>> Stashed changes
