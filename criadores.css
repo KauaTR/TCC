@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    margin: 0% ;
+    padding: 0%;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 50px;
+    margin-top: 0px;
+    }
+    
+.div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }
+.div1{
+    text-align: center;
+
+}
+.ali-ft{
+    border-radius: 50%;
+    width: 50%;
+    height: 70%;
+    margin:8% ;
+}
+.ali-txt{
+   text-align:start;
+   width: 400px;
+   margin: 200px;
+   font-family: 'Tilt Neon', sans-serif;
+   font-size: 1.41rem;
+}
+.section{
+    background-color: #89CFF3;
+}
+
+section{
+    height: 800px;
+    box-shadow: 2px 2px 8px 0px #89CFF3,
+    4px 4px 16px 0 #89CFF3,
+     0px 0px 24px 24px #89CFF3;
+}
+.ali-audio{
+    margin-top: 60px;
+
+}
+.elemento {
+    opacity: 0;
+  }

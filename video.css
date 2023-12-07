@@ -1,0 +1,20 @@
+#txt-sc-2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+   }
+   #Mercado{
+    margin: 50px;
+   }
+   #txt-sub01{
+    text-align: center;
+    margin: 15px;
+    font-size: 2em;
+   }
+   .video-2{
+    height: 900px;
+    width: 900px;
+    align-items: center;
+    padding: 0%;
+    margin-right: 25%;
+   }

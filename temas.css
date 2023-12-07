@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+  body{
+      font-family: "Quicksand", sans-serif;
+  }
+  section{
+      min-height: 100vh;
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+  #TelaTemas{
+    background-color: #89CFF3;
+    width: 100%;
+   
+  }
+  .txt-cards{
+      text-align: center;
+      color: rgb(0, 0, 0);
+      
+  }
+  .title{
+      font-size: 3rem;
+      margin: 2rem 0rem;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #89CFF3;
+      margin: 50px;
+  }
+  .faq{
+      max-width: 700px;
+      margin-top: 2rem;
+      padding-bottom:1rem ;
+      border-bottom: 2px solid #fff;
+      cursor: pointer;
+  }
+  .question{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .question h3{
+      font-size: 1.8rem;
+  }
+  .answer{
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 1.4s ease;
+      background-color: #89CFF3;
+  }
+  .answer p {
+      padding-top:1rem ;
+      line-height: 1.6;
+      font-size: 1.4rem;
+  
+  }
+  .faq.active .answer{
+      max-height: 100%;
+      animation: fade 1s ease-in-out;
+  }
+  .faq.active svg{
+      transform: rotate(180deg);
+  }
+  svg{
+      transition: transform .5s ease-in;
+  }
+  @keyframes fade{
+      from{
+          opacity:0 ;
+          transform:translateY(-10px) ;
+      }
+      to{
+         opacity: 1;
+         transform: translateY(-10px);
+      }
+  }
+  /*Codigo acima trata-se sobre os temas*/
+  .ali-temas{
+      text-align: center;
+      color: white; 
+      text-indent: 25px;          
+  font-family: 'Tilt Neon', sans-serif;
+  }
+  .ali-temas2{
+    color: black;
+   text-indent: 25px;  
+   font-family: 'Tilt Neon', sans-serif;
+   text-decoration: none;
+  }
+  .ali{
+   text-indent: 25px;  
+   font-family: 'Tilt Neon', sans-serif;
+
+  }
+  .dif{
+   color: white;
+   font-family: 'Tilt Neon', sans-serif;
+  }
+  .span{
+    color: #fff;
+  
+  }

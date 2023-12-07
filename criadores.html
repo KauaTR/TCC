@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/criadores.css">
+    <script src="../index.js" defer ></script>
+    <script src="https://unpkg.com/scrollreveal"></script>      
+</head>
+<script>
+    // Inicialize o ScrollReveal
+    ScrollReveal().reveal('.elemento');
+  </script>
+<body>
+  
+<section class="section">
+    <div class="parent">
+        <div class="div1"> 
+            <img src="../imagens/teles.jpeg" alt="" class="ali-ft">
+        </div>
+        <div class="div2">
+            <p class="ali-txt">Olá! Me chamo Kauã Teles Rodrigues, tenho 17 anos sou de Itanhaém-SP,
+            faço curso de programação voltada para aréa web, pelo Senac, porém minha atuação e 
+            Front-End (responsalvel por estilização do site como botoes, imagens, cores , fontes , etc.)
+
+            <audio controls class="ali-audio" id="meuAudio">
+                <source src="../video/teles-audio.ogg" type="audio/ogg" >
+              </audio>
+            
+                </p> 
+            
+        </div>
+    </div>
+</section>
+
+
+
+<section id="section2">
+    <div class="parent">
+        <div class="div1"> 
+            <p class="ali-txt">Esther Silva de Araujo, uma profissional junior de web design,
+             tem 17 anos, se formando no Ensino médio com habilitação profissional de técnico
+             de informática para internet (SENAC), tendo concluído o curso de Design Gráfico
+             na Inforcuso Escola de Informática. Experiência no campo de edições de vídeos,
+             trabalhou em parceria com a Editora Gutenberg em proporcionar conteúdo do livro
+             The School for Good and Evil. Está disposta a trabalhar mais nessa área. 
+
+             <audio controls class="ali-audio">
+                <source src="../video/shter-audio.ogg" type="audio/ogg" >
+              </audio>
+            </p>
+        </div>
+        <div class="div2">
+            
+            <img src="../imagens/sther.jpeg" alt="" class="ali-ft">
+        </div>
+    </div>
+</section>
+
+
+
+<section class="section">
+    <div class="parent">
+        <div class="div1"> 
+            <img src="../imagens/alexandre.jpeg" alt="" class="ali-ft">
+        </div>
+        <div class="div2">
+            <p class="ali-txt">Alexandre Esparrell Neves, aluno do Senac
+            (Serviço Nacional de Aprendizagem Comercial) no Ensino médio
+            com habilitação profissional de técnico de informática(Novotec)
+            em finalização de curso.Possui experiência em desenvolvimento
+            web e mobile, com conhecimento em HTML, CSS, JavaScript,
+            Bootstrap, SQL, C#, PHP, WordPress, Unity, Semântica,
+             responsividade, acessibilidade e SEO.
+             <audio controls class="ali-audio">
+                <source src="../video/ale-audio.ogg" type="audio/ogg" >
+              </audio>
+            </p> 
+            
+        </div>
+    </div>
+</section>
+
+<script>
+    // Obtenha o elemento de áudio
+    var meuAudio = document.getElementById('meuAudio');
+
+    // Adicione um ouvinte de evento para o evento 'ended' (quando a reprodução do áudio é concluída)
+    meuAudio.addEventListener('ended', function() {
+      // Role a página para baixo
+      window.scrollBy({
+        top: '600px',  // Pode ajustar o valor conforme necessário
+        behavior: 'smooth'  // Adiciona um efeito de rolagem suave
+      });
+    });
+  </script>
+
+</body>
+</html>

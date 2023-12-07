@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    background-color: #89CFF3;
+    
+}
+.parent {
+    width: 500px;
+    display: grid;
+    grid-template-areas: "div2 div2 ";
+    justify-content: center;
+    margin: 15% 12.5%;
+    gap: 10px;
+    background-color: black;}
+
+    
+
+    
+.TelaCal{
+   color: white;
+   text-align: center;
+   margin: 8%;
+   border: 10px solid black;
+   border-radius: 15px;
+   height: 600px;
+   width: 600px; 
+   background-color: black;
+}
+.TelaCal2{
+    text-align: center;
+    color: white;
+    font-family: 'Tilt Neon', sem serifa;
+    background-color: black;
+}
+.bnt{
+  width: 160px;
+  height: 20px;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+#botao{
+   border-radius: 20px;
+   height: 35px;
+   width: 200px;
+   background-color: #4c9fc9;
+   border: 1px solid #0E435D;
+   margin: 10px;
+   box-shadow:0px 0px  3px 5px  #0E435D ;
+   &:hover{
+    transition: 1.3s;
+    width: 215px;
+    background-color: #0E435D;
+    border: 0px;
+    box-shadow: 0px 0px 6px 4px white;
+   }
+}
+/* MEnu */
+#menu-cal{
+  text-align: center;
+  height: 40px;
+  width:200px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin:5px;
+  box-shadow: 0px 0px  2px 2px  #e7f7ff;
+  &:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 6px 4px #0E435D;
+      }
+}
+/*       */
+
+.pai{
+    display: grid;
+    grid-template-areas: "cards cards";
+    gap: 20px;
+
+}
+/* */
+.txt{
+  margin: 80px 0px;
+  color: #f2fbff;
+  text-align: start;
+  text-indent: 20px;
+  width: 500px;
+  font-family: 'Tilt Neon', sans-serif;
+}
+.txt2{
+    color: #f2fbff;
+    text-align: start;
+    text-indent: 20px;
+    margin: 2px;
+    width: 500px;
+}
+p{
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+
+.p1{
+    background-color: black;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+
+input {
+    font-size: 15px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+  width: 50px;
+  height: 20px;
+  margin: 0px;
+  padding: 5px;
+  transform: rotate(90deg);
+  filter: sepia(100%) hue-rotate(90deg);
+  cursor: pointer;
+}
+.div2{
+    background-color: black;
+}
+.return{
+   background-color: black;
+}

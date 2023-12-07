@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/calculadora.css">
+   
+    <title>Document</title>
+</head>
+<body>
+
+   <header>
+<a href="../index.html">
+    <button id="menu-cal">
+   Voltar a pagina inicial
+    </button>
+</a>
+   </header>
+
+
+
+    <section>
+
+      <div class="pai">
+ <div class="cards">
+    <div class="TelaCal">
+    <h1 class="TelaCal2">Calculadora de Juros Simples</h1>
+    <div class="parent">
+        <div class="div2">
+            <p class="p1">Digite a capital</p>
+            <input type="number" name="cap" id="cap" placeholder="Capital" min="0"  class="bnt"> </div>
+        <div class="div2">
+            <p class="p1">Digite a taxa</p>
+            <input type="number" name="taxa" id="taxa" placeholder="Taxa" min="0" class="bnt"> </div>
+        <div class="div2"> 
+            <p class="p1">Digite os meses</p>
+            <input type="number" name="meses" id="meses" placeholder="Meses" min="1" max="12" class="bnt"><br><br>
+        </div>
+        
+         </div>
+
+         <div class="div2">  <button id="botao" onclick='calcularJuros()'>Calcular</button>
+
+        </div>
+   
+     
+   
+    <p id="capital" class="return"></p>
+    <p id="resultado" class="return"></p>
+    <p id="total" class="return"></p>
+
+
+
+    </div>
+</div>
+
+<div class="cards"> <h1 class="txt">TITULO</h1 >
+<p class="txt2">  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptatum recusandae corrupti 
+    incidunt numquam nam deleniti voluptatibus dolorum nihil adipisci, eaque quam nemo eum facilis minima. Veniam,
+     facilis aliquam! Quos!
+     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptatum recusandae corrupti 
+     incidunt numquam nam deleniti voluptatibus dolorum nihil adipisci, eaque quam nemo eum facilis minima. Veniam,
+      facilis aliquam! Quos!
+                        <p>
+<p class="txt2">  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptatum recusandae corrupti 
+     incidunt numquam nam deleniti voluptatibus dolorum nihil adipisci, eaque quam nemo eum facilis minima. Veniam,
+     facilis aliquam! Quos!
+     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptatum recusandae corrupti 
+     incidunt numquam nam deleniti voluptatibus dolorum nihil adipisci, eaque quam nemo eum facilis minima. Veniam,
+     facilis aliquam! Quos!
+                        <p>
+     <p class="txt2">  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptatum recusandae corrupti 
+     incidunt numquam nam deleniti voluptatibus dolorum nihil adipisci, eaque quam nemo eum facilis minima. Veniam,
+     facilis aliquam! Quos!
+     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo voluptatum recusandae corrupti 
+     incidunt numquam nam deleniti voluptatibus dolorum nihil adipisci, eaque quam nemo eum facilis minima. Veniam,
+     facilis aliquam! Quos!
+                        <p>
+</div>
+
+       </div>
+    </section> 
+
+
+    <script>
+        function calcularJuros() {
+            let capital = parseFloat(document.getElementById("cap").value);
+            let taxa = parseFloat(document.getElementById("taxa").value);
+            let meses = parseInt(document.getElementById("meses").value);
+
+            if (isNaN(capital) || isNaN(taxa) || isNaN(meses)) {
+                alert("Digite todos os valores para ela te mostrar o resultado!");
+                return;
+            }
+
+            let juros = (capital * taxa * meses) / 100;
+            let jurostotal= capital+juros;
+
+            document.getElementById("resultado").innerText =
+                "O valor do juro: " + juros.toFixed(2);
+                
+                document.getElementById("capital").innerText =
+                "O valor do total investido: " + capital.toFixed(2);
+
+                document.getElementById("total").innerText =
+                "O valor do juro simples é " + jurostotal.toFixed(2);
+        }
+    </script>
+</body>
+</html>
