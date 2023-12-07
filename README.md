@@ -1,34 +1,54 @@
-# **Acervo Digital Benedito Calixto**
-## **Objetivo**
-Criar um site onde ajude a população organizar seu dinheiro para ter uma boa vida financeiro, com relação a finanças, tendo o publico alvo crianças e adolescentes.
-## **Problema**
-Atualmente, a população vem sofrendo em relação a como guardar seu dinheiro e porque. Isso vem sendo afetado pelo fato que a maioria dos jovens entre 10 a 19 anos gastam seu dinheiro com coisas supérfluas, não pensando no futuro e como aquilo pode afetar sua vida financeira 
-## **Identidade Visual**
-A cor #00A5BD foi escolhida por conta que é a cor da economia, assim tendo uma familiaridade com o site, as cores #FFFFFF,#673500,#0D0A07 são para deixar mais agradavel, sendo utilizados para detalhes. 
-## **Solução**
-O site de Finances kids , oferece ideias de como guardar seu dinheiro, por que guardar seu dinheiro e como guardar seu dinheiro. Isto será muito bom pois poderá abrir mentes do público alvo, que são entre 10 a 25 anos, e ensinara a importância de saber administrar o seu ganho e ter alguns resultados positivos. 
-## **Tecnologias**
-O projeto será desenvolvido utilizando as seguintes tecnologias:
-•	HTML para estruturar o conteúdo do site
-•	CSS para estilizar o site
-•	JavaScript para adicionar funcionalidades ao site
-•	PHP para interagir com o banco de dados
-•	Boodstrap para parte de interações e estilização.
-## **Equipe**
-O projeto está sendo desenvolvido por dois estudantes do 3° ano do NOVOTEC do E.E Benedito Calixto:
-* ** Kauã Teles Rodrigues**
-* **Esther Silva de Araújo **
-* **  Alexandre Sparrell Neves **
+**Finance Kids**
 
-## **Benefícios**
-O projeto irá beneficiar alunos, professores, pessoas de baixa renda, todos que tiver interesse em como administrar seu dinheiro.
- ### **Alunos**
-•	* ** Melhor gestões sobre seu dinheiro:** Os alunos terão uma visão diferente sobre o que fazer com seu dinheiro, como gastar, e como guardar influência na vida deles.
-•	* ** Mais facilidade de como ganhar dinheiro:** O site irá mostrar lugares confiáveis e que serão muito interessantes para que eles guardem pouco e no futuro ganhe muito.
-* ** Recomendações personalizadas:** O site oferecerá outros sites, pessoas e lugares para que elas possam saber mais 
-### **Professores**
-* ** Recomendações personalizadas :** Professores na área ou com experiencia poderão ajudar como melhor.
-•	* ** Acompanhamento de progresso:** Os interessados poderão acompanhar o seu progresso.
- 
-Metas 
-https://1drv.ms/x/s!An5rcMl69pkygRjf36nV_H3Zy2TV?e=nvKvnU
+## 🚀 **Objetivo**
+
+Criar um site que ajude a população a organizar seu dinheiro para ter uma boa saúde financeira, especialmente voltado para crianças e adolescentes.
+
+## 🌍 **Problema**
+
+A população enfrenta desafios ao tentar economizar dinheiro, especialmente jovens entre 10 a 19 anos, que muitas vezes gastam seus recursos em itens supérfluos, sem considerar o impacto futuro em suas finanças.
+
+## 🎨 **Identidade Visual**
+
+A cor ![Economia](https://via.placeholder.com/15/00A5BD/000000?text=+) `#00A5BD` foi escolhida por representar a cor da economia, proporcionando familiaridade com o site. As cores ![Branco](https://via.placeholder.com/15/FFFFFF/000000?text=+) `#FFFFFF`, ![Marrom](https://via.placeholder.com/15/673500/000000?text=+) `#673500`, e ![Preto](https://via.placeholder.com/15/0D0A07/000000?text=+) `#0D0A07` são utilizadas para detalhes e tornar a experiência mais agradável.
+
+## 💡 **Solução**
+
+O site "Finances Kids" oferece orientações sobre como economizar dinheiro, por que é importante e como fazê-lo. Destinado ao público de 10 a 25 anos, o projeto visa abrir mentes para a importância da administração financeira, proporcionando resultados positivos.
+
+## 💻 **Tecnologias**
+
+O projeto será desenvolvido utilizando as seguintes tecnologias:
+
+- **HTML**: Para estruturar o conteúdo do site.
+- **CSS**: Para estilizar o site.
+- **JavaScript**: Adicionando funcionalidades ao site.
+- **Unity**: Para adicionar um motor de jogo que permite criar jogos para diversas plataformas.  
+- **Bootstrap**: Para interações e estilização.
+
+## 👥 **Equipe**
+
+O projeto está sendo desenvolvido por três estudantes do 3° ano do NOVOTEC do E.E Benedito Calixto:
+
+- **Kauã Teles Rodrigues**
+- **Esther Silva de Araújo**
+- **Alexandre Esparrell Neves**
+
+## 🌟 **Benefícios**
+
+O projeto visa beneficiar alunos, professores e pessoas de baixa renda interessadas em aprender a administrar seu dinheiro.
+
+### 🎓 **Alunos**
+
+- **Melhor gestão financeira:** Os alunos terão uma visão diferente sobre como gastar e guardar dinheiro, impactando positivamente em suas vidas.
+- **Facilidade em ganhar dinheiro:** O site mostrará lugares confiáveis para economizar agora e ganhar mais no futuro.
+- **Recomendações personalizadas:** Ofertas de sites, pessoas e lugares para obter mais conhecimento.
+
+### 👩‍🏫 **Professores**
+
+- **Recomendações personalizadas:** Professores experientes podem oferecer orientações valiosas.
+- **Acompanhamento de progresso:** Interessados podem acompanhar seu progresso.
+
+## 📈 **Metas**
+
+[Link para as Metas](https://1drv.ms/x/s!An5rcMl69pkygRjf36nV_H3Zy2TV?e=nvKvnU)
